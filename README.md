@@ -11,7 +11,7 @@ This is a Laravel Vue.js project starter. It has some basic setup for your new p
 Before you begin, ensure you have met the following requirements:
 
 - [Node.js](https://nodejs.org/) installed v20 stable
-- [Composer](https://getcomposer.org/) installed
+- [Composer](https://getcomposer.org/) installed v2.7.4
 - [PHP](https://www.php.net/) installed v^8.2
 - [Laravel](https://laravel.com/) v11
 - [NPM](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/) installed or br [Bun](https://bun.sh/docs/installation) Preferred to Bun
