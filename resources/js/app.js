@@ -1,18 +1,11 @@
 import "./bootstrap";
 import "../css/app.css";
-import "bootstrap";
 import "laravel-datatables-vite";
 import { createApp } from "vue";
 import VueSweetalert2 from "vue-sweetalert2";
 import { Ziggy } from "./ziggy";
 import { i18nVue } from "laravel-vue-i18n";
 import { getTrans } from "@/helpers";
-// import Alpine from "alpinejs";
-
-
-// Alpine.start();
-// window.Alpine = Alpine;
-
 const app = createApp({})
     .use(Ziggy)
     .use(i18nVue, {

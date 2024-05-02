@@ -69,12 +69,12 @@
                 <div class="dropdown-menu dropdown-menu-end">
 
                     <!-- item-->
-                    <a href="{{ route('app.language.change','en') }}" class="dropdown-item notify-item">
+                    <a href="#" class="dropdown-item notify-item">
                         <img src="{{ asset('images/flags/us_flag.jpg')}}" alt="flag-image" class="me-1" height="12"> <span class="align-middle"> {{ __('English')}} </span>
                     </a>
 
                     <!-- item-->
-                    <a href="{{ route('app.language.change','bn') }}" class="dropdown-item notify-item">
+                    <a href="#" class="dropdown-item notify-item">
                         <img src="{{ asset('images/flags/bd_flag.jpg') }}" alt="flag-image" class="me-1" height="12"> <span class="align-middle"> {{__('Bangla')}} </span>
                     </a>
 
@@ -90,12 +90,12 @@
             <div class="dropdown d-inline-block">
                 <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
                         data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img class="rounded-circle header-profile-user" src="{{ auth()->user()->avatar_url }}"
+                    <img class="rounded-circle header-profile-user" src="{{ auth()?->user()?->avatar_url }}"
                          alt="Header Avatar">
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
                     <!-- item-->
-                    <a class="dropdown-item" href="{{ route('users.edit', auth()->id()) }}"><i
+                    <a class="dropdown-item" href="#"><i
                             class="mdi mdi-account-circle font-size-17 align-middle me-1"></i> {{ __('Profile')}}</a>
                     <div class="dropdown-divider"></div>
 

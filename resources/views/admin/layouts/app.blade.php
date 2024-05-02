@@ -22,10 +22,10 @@
 <body data-sidebar="dark">
     <div id="app">
 
-        {{-- @include('admin.layouts.partials.header') --}}
+        @include('admin.layouts.partials.header')
 
         <!-- ========== Left Sidebar Start ========== -->
-        {{-- @include('admin.layouts.partials.sidebar') --}}
+        @include('admin.layouts.partials.sidebar')
         <!-- Left Sidebar End -->
 
         <!-- ============================================================== -->
@@ -37,7 +37,7 @@
                 <div class="container-fluid">
 
                     <!-- start page title -->
-                    {{-- @include('admin.layouts.partials.breadcrumb') --}}
+                    @include('admin.layouts.partials.breadcrumb')
                     <!-- end page title -->
 
                     <div id="loadingState" class="site_loader">
