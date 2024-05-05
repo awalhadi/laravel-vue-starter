@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('first_name');
             $table->string('last_name')->nullable();
-            $table->string('email')->unique();
+            $table->string('email')->unique()->index();
             $table->string('phone', 20)->nullable();
             $table->tinyInteger('gender')->unsigned()->nullable()->comment('O for Female, 1 for Male, 2 for Rather not say');
             $table->timestamp('email_verified_at')->nullable();
